@@ -429,3 +429,107 @@ footer {
     font-size: 24px;
   }
 }
+/* NEW PREMIUM SECTION REDESIGN */
+.booking-showcase {
+  background: #10271b !important;
+  border: 2px solid #d7b45c !important;
+  border-radius: 24px !important;
+  padding: 28px 16px !important;
+  margin: 25px 12px !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+}
+
+.booking-showcase > p {
+  text-align: center !important;
+}
+
+.booking-showcase .booking-card {
+  background: linear-gradient(145deg, #263d2d, #101a13) !important;
+  border: 1px solid #d7b45c !important;
+  border-radius: 18px !important;
+  padding: 22px 14px !important;
+  margin: 16px 0 !important;
+  text-align: center !important;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35) !important;
+}
+
+.booking-showcase .booking-card h3 {
+  color: #f4d582 !important;
+  font-size: 20px !important;
+}
+
+.booking-showcase .booking-card p {
+  color: #fff4dc !important;
+  font-size: 15px !important;
+  line-height: 1.6 !important;
+}
+
+.booking-showcase .booking-card a,
+.booking-showcase a {
+  display: inline-block !important;
+  background: linear-gradient(135deg, #f8df96, #c49a43) !important;
+  color: #152016 !important;
+  padding: 12px 20px !important;
+  margin-top: 12px !important;
+  border-radius: 30px !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+
+.why-choose {
+  background: linear-gradient(145deg, #182d20, #080f0a) !important;
+  border: 2px solid #d7b45c !important;
+  border-radius: 24px !important;
+  padding: 28px 16px !important;
+  margin: 25px 12px !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+}
+
+.why-choose .why-card {
+  background: #203729 !important;
+  border: 1px solid #a98a43 !important;
+  border-radius: 18px !important;
+  padding: 22px 14px !important;
+  margin: 12px 0 !important;
+  text-align: center !important;
+}
+
+.why-choose .why-icon {
+  font-size: 38px !important;
+  color: #f4d582 !important;
+}
+
+.why-choose .why-card h3 {
+  color: #f4d582 !important;
+}
+
+.why-choose .why-book-btn {
+  background: linear-gradient(135deg, #f8df96, #c49a43) !important;
+  color: #152016 !important;
+  border-radius: 30px !important;
+  padding: 14px 22px !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+}
+
+.booking-showcase h2,
+.why-choose h2 {
+  color: #f4d582 !important;
+  text-align: center !important;
+}
+
+@media (max-width: 480px) {
+  .booking-showcase,
+  .why-choose {
+    margin: 20px 8px !important;
+    padding: 22px 12px !important;
+  }
+
+  .booking-showcase .booking-card,
+  .why-choose .why-card {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+}
