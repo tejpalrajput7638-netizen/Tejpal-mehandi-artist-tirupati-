@@ -245,3 +245,96 @@ footer {
   }
 }
 
+/* Premium Gold 3D Why Choose Section */
+.why-choose {
+  padding: 55px 18px;
+  margin: 25px 10px;
+  text-align: center;
+  background: linear-gradient(145deg, #101010, #242016, #080808);
+  border: 1px solid #b99545;
+  border-radius: 22px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+}
+
+.why-subtitle {
+  color: #d9b765;
+  letter-spacing: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.why-choose h2 {
+  color: #fff4d2;
+  font-size: 30px;
+  margin: 12px 0 28px;
+}
+
+.why-choose h2 span {
+  color: #e5bd62;
+  text-shadow: 0 0 12px rgba(229, 189, 98, 0.4);
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 18px;
+}
+
+.why-card {
+  padding: 25px 15px;
+  background: linear-gradient(145deg, #29251b, #111111);
+  border: 1px solid #8c7136;
+  border-radius: 18px;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 12px 25px rgba(218, 178, 82, 0.22);
+}
+
+.why-icon {
+  font-size: 38px;
+  color: #e9c66e;
+  margin-bottom: 12px;
+  text-shadow: 0 0 14px rgba(233, 198, 110, 0.45);
+}
+
+.why-card h3 {
+  color: #f3d58b;
+  font-size: 19px;
+}
+
+.why-card p {
+  color: #e3dfd4;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.why-book-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 25px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #f3d58b, #b58a32);
+  color: #17120a;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 0 16px rgba(229, 189, 98, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.why-book-btn:hover {
+  transform: scale(1.06);
+}
+
+@media (max-width: 480px) {
+  .why-choose h2 {
+    font-size: 25px;
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+}
