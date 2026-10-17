@@ -533,3 +533,97 @@ footer {
     box-sizing: border-box !important;
   }
 }
+/* Compact Premium About Section */
+.about-premium {
+  box-sizing: border-box;
+  width: calc(100% - 24px);
+  max-width: 750px;
+  margin: 24px auto;
+  padding: 22px 16px;
+  background: linear-gradient(145deg, #10271b, #07130d);
+  border: 1px solid #c9a653;
+  border-radius: 22px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.about-inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-label {
+  color: #d7b45c;
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.about-premium h2 {
+  color: #f3d98e;
+  font-size: 26px;
+  margin: 8px 0 18px;
+}
+
+.about-premium h2 span {
+  color: #ffffff;
+}
+
+.about-photo {
+  width: 100%;
+  max-width: 320px;
+  height: 220px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+  border: 2px solid #c9a653;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+.about-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.about-premium h3 {
+  color: #f3d98e;
+  font-size: 20px;
+  margin: 14px 0;
+}
+
+.about-premium p {
+  color: #f5eee0;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.about-premium .about-address {
+  font-size: 13px;
+  color: #e5d3a5;
+  margin-top: 18px;
+}
+
+.about-premium .about-whatsapp {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 20px;
+  border-radius: 28px;
+  background: linear-gradient(135deg, #f8df96, #c49a43);
+  color: #17130a;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .about-premium {
+    padding: 18px 12px;
+  }
+
+  .about-photo {
+    height: 200px;
+    max-width: 280px;
+  }
+}
