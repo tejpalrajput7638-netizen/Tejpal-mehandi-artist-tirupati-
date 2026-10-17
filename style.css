@@ -627,3 +627,54 @@ footer {
     max-width: 280px;
   }
 }
+/* Final fix for About photo and section width */
+#about-premium {
+  display: block !important;
+  width: calc(100% - 24px) !important;
+  max-width: 700px !important;
+  margin: 24px auto !important;
+  padding: 20px 14px !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+  text-align: center !important;
+}
+
+#about-premium .about-inner {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+}
+
+#about-premium .about-photo {
+  display: block !important;
+  width: 100% !important;
+  max-width: 260px !important;
+  height: 180px !important;
+  margin: 16px auto !important;
+  overflow: hidden !important;
+  border-radius: 16px !important;
+}
+
+#about-premium .about-photo img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+}
+
+#about-premium p {
+  overflow-wrap: anywhere;
+  line-height: 1.7 !important;
+}
+
+#about-premium .about-whatsapp {
+  display: inline-block !important;
+  background: linear-gradient(135deg, #f8df96, #c49a43) !important;
+  color: #17130a !important;
+  padding: 12px 20px !important;
+  border-radius: 28px !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+}
